@@ -1,21 +1,21 @@
 module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	adminId: "901396790627172383", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "MTE4ODg5NTU1NDE0NzcyOTUxMA.GsWYxR.MtCk6qcDfUke7vo8UQYX9ovWBGjwNCylupl_fs", //- Bot's Token
+	clientId: process.env.clientId || "1188895554147729510", //- ID of the bot
+	clientSecret: process.env.clientSecret || "4yx2obKC2Z9xAae7UkkFaj5ici9rGa8E", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-	supportServer: "https://discord.gg/sbySMS7m3v", //- Support Server Link
+	supportServer: "lauda ka support", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
 	permissions: 277083450689, //- Bot Inviting Permissions
 	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
 	twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
-	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
+	autoQueue: true, //- When set to true, related songs will automatically be added to the queue
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
 	debug: false, //- Debug mode
